@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hot&cold.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">FOODIE BUDDY</h1>
+        <div class="headbtn">
+            <a href="optionpage.html"><button class="btn">EXIT</button></a>
+        </div>
+    </header>
+    <main>
+        <div class="menu-buttons">
+            <button class="menu-btn" onclick="filterMenu('maindish')">Main Dish</button>
+            <button class="menu-btn" onclick="filterMenu('vegetables')">Vegetables</button>
+            <button class="menu-btn" onclick="filterMenu('desserts')">Desserts</button>
+            <button class="menu-btn" onclick="filterMenu('drinks')">Drinks</button>
+            <button class="menu-btn" onclick="filterMenu('add-on')">Add-Ons</button>
+            <button class="menu-btn" onclick="filterMenu('all')">All</button>
+        </div>
+
+        <div class="maindish menu-section">
+            <div class="dish">
+                <h3>MAINDISH</h3>
+            </div>
+            <div class="container">
+                <div class="menu-item">
+                    <img src="Steak.jpg" class="pict1">
+                    <h2>STEAK</h2>
+                    <p>CSKFSAJDHFJASHF</p>
+                    <p>100.00</p>
+                    <input type="checkbox" id="maindish">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="Fried.jpg" class="pict1">
+                    <h2>FRIED CHIKEN</h2>
+                    <p>FSAFJGJDSHGOUDSG</p>
+                    <p>100.00</p>
+                    <input type="checkbox" id="maindish2">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="bulalo.jpg" class="pict1">
+                    <h2>bulalo</h2>
+                    <p>DFGHDSFJGHDSJGISJG</p>
+                    <p>100.00</p>
+                    <input type="checkbox" id="maindish3">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+            </div>
+        </div>
+
+        <div class="vegetables menu-section">
+            <div class="dish">
+                <h3>VEGETABLES</h3>
+            </div>
+            <div class="container">
+                <div class="menu-item">
+                    <img src="ukoy.jpg" class="pict1">
+                    <h2>ukoy</h2>
+                    <p>basta ukoy</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="chapsuy.jpg" class="pict1">
+                    <h2>chapsuy</h2>
+                    <p>basta chapsuy</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="Pinakbet Recipe.jpg" class="pict1">
+                    <h2>pakbet</h2>
+                    <p>basta pakbet</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+            </div>
+        </div>
+
+        <div class="desserts menu-section">
+            <div class="dish">
+                <h3>DESSERTS</h3>
+            </div>
+            <div class="container">
+                <div class="menu-item">
+                    <img src="flan.jpg" class="pict1">
+                    <h2>letche flan</h2>
+                    <p>sahfjadshfjasfaweufheusfh</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="bibingka.jpg" class="pict1">
+                    <h2>bibingka</h2>
+                    <p>kjfdsgjdhfj</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="ice_cream.jpg" class="pict1">
+                    <h2>ice cream</h2>
+                    <p>jdfhakdsjfkjahsdfjas</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+            </div>
+        </div>
+
+        <div class="drinks menu-section">
+            <div class="dish">
+                <h3>DRINKS</h3>
+            </div>
+            <div class="container">
+                <div class="menu-item">
+                    <img src="lemon.jpg" class="pict1">
+                    <h2>Lemon juice</h2>
+                    <p>Made with real lemon</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="mango.jpg" class="pict1">
+                    <h2>Mango juice</h2>
+                    <p>Made with real Mangp</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="milkshake.jpg" class="pict1">
+                    <h2>milk shake</h2>
+                    <p>Icey milkshake with oreo and cream</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+            </div>
+        </div>
+
+        <div class="add-on menu-section">
+            <div class="dish">
+                <h3>ADD-ON</h3>
+            </div>
+            <div class="container">
+                <div class="menu-item">
+                    <img src="bbq.jpg" class="pict1">
+                    <h2>bbq</h2>
+                    <p>dfgasdcuosdaD</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="Sisig.jpg" class="pict1">
+                    <h2>sisig</h2>
+                    <p>ljfghsdhgd</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+
+                <div class="menu-item">
+                    <img src="rice.jpg" class="pict1">
+                    <h2>rice</h2>
+                    <p>khfajshfuaehfuwefu</p>
+                    <p>100.00</p>
+                    <input type="checkbox">
+                    <input type="number" min="0" value="0" class="quantity">
+                </div>
+            </div>
+        </div>
+
+        <div class="java">
+            <button class="btn" id="showMessageButton">Show Message</button>
+            <p id="message"></p>
+        </div>
+    </main>
+    <script src="hot&cold.js"></script>
+</body>
+
+</html>

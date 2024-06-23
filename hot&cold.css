@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5rem;
+    padding: 0;
+    background-color: #ffd23f;
+}
+
+/* header */
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+    height: 3em;
+    background: #ffd23f;
+    width: 100%;
+    margin-bottom: 4rem;
+
+}
+
+.headbtn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo{
+    font-weight: 800;
+    color: #a85f00;
+    margin-right: 19rem;
+    font-size: 2rem;
+}
+
+.btn {
+    margin-left: 9rem;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+    text-align: center;
+    border: none;
+    background-size: 200% 50%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.menu-btn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.btn, .menu-btn {
+    background-image: linear-gradient(to right,
+            #fdba3d,
+            #f5ce62,
+            #e48a03,
+            #fdba3d);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+/*foootertext*/
+.fotext h1 {
+    justify-content: center;
+    display: flex;
+
+}
+
+.footertext ul {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 35px;
+    font-size: 1.2rem;
+}
+
+.footertext li a {
+    text-decoration: none;
+    color:#a85f00;
+    font-weight: 100;
+    font-size: 14px;
+
+
+}
+
+.footertext a:hover {
+    color: #a85f00;
+    transition: .4s;
+}
+
+.dish h3{
+    font-weight: 800;
+    color: #c56c18;
+    margin-left: 7rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+h1 {
+    font-weight: 800;
+    color: #a85f00;
+    margin-right: 19rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+
+}
+
+
+
+/* <input type="checkbox">
+<script src="hot&cold.js"></script>
+        <div>
+            <button class="btn" id="showMessageButton">Show Message</button>
+            <p id="message"></p>
+        </div>">
+*/
+
+
+.container {
+    margin-top: 10rem;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.pict1{
+    width: 300px;
+    height: 300px;
+}
+
+
+.menu-item {
+    width: 300px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fdba3d;
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 5%);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-item {
+        width: 100%;
+    }
+}
+
+
+
+.java p{
+    margin-top: 2rem;
+    margin-left: 15em;
+}
+.menu-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-btn {
+    cursor: pointer;
+}
+
+.menu-section {
+    display: none;
+}
+
+.menu-section.active {
+    display: block;
+}

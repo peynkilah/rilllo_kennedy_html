@@ -1,0 +1,118 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background:#ffd23f;
+}
+/*yung pinaka taas*/
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background:#ffd23f;
+    width: 100%;
+    
+}
+.headbtn{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 800;
+    color: #a85f00;
+    margin-right: 19rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+  
+}
+.logo{
+    font-weight: 800;
+    color: #a85f00;
+    margin-right: 19rem;
+    font-size: 2rem;
+}
+/*mainbody*/
+main{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+align-items: center;
+margin-bottom: 4rem;
+
+}
+
+/*TEXT IN THE BODY*/
+.text h2{
+    white-space: nowrap;
+    color: #fff;
+    font-size: 60px;
+    width: 470px;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 10rem;
+
+}
+
+/*buttons*/
+.pict{
+    margin-bottom: 3rem;
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 8rem ;
+    margin-top: 4rem;
+}
+
+.btn {
+
+    width: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 200% 50%;
+    border-radius: 50px;
+   
+  }
+  
+.btn:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+.btn {
+    background-image: linear-gradient(
+      to right,
+      #fdba3d,
+      #f5ce62,
+      #e48a03,
+      #fdba3d
+    );
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  }
+
+ 
+ 
+
